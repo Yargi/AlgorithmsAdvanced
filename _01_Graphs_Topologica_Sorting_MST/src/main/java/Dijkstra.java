@@ -40,6 +40,8 @@ public class Dijkstra {
 
         List<Integer> path = new ArrayList<>();
 
+        path.add(destinationNode);
+
         int n = previous[destinationNode];
 
         while (n != -1) {
@@ -49,6 +51,6 @@ public class Dijkstra {
 
         Collections.reverse(path);
 
-        return path;
+        return path.size() == 1 ? null : path;
     }
 }
