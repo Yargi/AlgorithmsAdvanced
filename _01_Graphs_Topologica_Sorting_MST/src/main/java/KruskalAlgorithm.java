@@ -4,6 +4,8 @@ public class KruskalAlgorithm {
 
     public static List<Edge> kruskal(int numberOfVertices, List<Edge> edges) {
 
+        Collections.sort(edges);
+
         int[] parents = new int[numberOfVertices];
 
         for (int i = 0; i < parents.length; i++) {
