@@ -4,23 +4,39 @@ public class KruskalAlgorithm {
 
     public static List<Edge> kruskal(int numberOfVertices, List<Edge> edges) {
 
-        PriorityQueue<Edge> orderedEdges = new PriorityQueue<>(edges);
+        int[] parents = new int[numberOfVertices];
+
+        for (int i = 0; i < parents.length; i++) {
+
+            parents[i] = i;
+        }
 
         List<Edge> forest = new ArrayList<>();
 
-        while (!orderedEdges.isEmpty()) {
-            Edge edge = orderedEdges.poll();
+        for (Edge edge : edges) {
 
             int source = edge.getStartNode();
             int destination = edge.getEndNode();
 
-            int[] parents = new int[numberOfVertices];
+            int sourceRoot = findRoot(source, parents);
+            int destinationRoot = findRoot(destination, parents);
+
+            if (sourceRoot != destinationRoot) {
+
+                forest.add(edge);
+                parents[sourceRoot] = destinationRoot;
+            }
         }
 
         return forest;
     }
 
     public static int findRoot(int node, int[] parents) {
-        return 0;
+
+        while (parents[node] != node) {
+            node = parents[node];
+        }
+
+        return node;
     }
 }
