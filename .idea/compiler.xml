@@ -6,11 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="_03_Graphs_Bellman-Ford_Longest_Path_in_DAG_-_Exercise" />
+        <module name="_01_Bellman-Ford" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="_01.Dijkstra" target="1.5" />
       <module name="_02.Minimal_Spanning_Tree" target="1.5" />
+      <module name="_02_Graphs-Bellman-Ford-Longest-Path-in-DAG" target="18" />
     </bytecodeTargetLevel>
   </component>
 </project>

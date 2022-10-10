@@ -5,6 +5,8 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/_01_Graphs_Topologica_Sorting_MST/pom.xml" />
+        <option value="$PROJECT_DIR$/_03_Graphs_Bellman-Ford_Longest_Path_in_DAG_-_Exercise/pom.xml" />
+        <option value="$PROJECT_DIR$/_02_Graphs_Bellman-Ford_-_Longest_Path_in_DAG_-_Lab/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -14,7 +16,10 @@
       </set>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="openjdk-18" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_18" default="true" project-jdk-name="openjdk-18" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="jpab" />
   </component>
 </project>

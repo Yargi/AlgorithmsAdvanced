@@ -30,7 +30,12 @@ public class Main {
         int source = Integer.parseInt(sc.nextLine());
         int destination = Integer.parseInt(sc.nextLine());
 
-        bellmanFord(source);
+        try {
+            bellmanFord(source);
+        } catch (IllegalStateException e) {
+            System.out.println(e.getMessage());
+            return;
+        }
 
         List<Integer> path = new ArrayList<>();
         path.add(destination);
@@ -78,6 +83,24 @@ public class Main {
             }
         }
 
+
+        for (int r = 1; r < graph.length; r++) {
+            for (int c = 1; c < graph[r].length; c++) {
+                int weight = graph[r][c];
+                if (weight != 0) {
+                    int source = r;
+                    int destination = c;
+
+                    if (distance[source] != Integer.MAX_VALUE) {
+                        int newValue = distance[source] + weight;
+                        if (newValue < distance[destination]) {
+                            throw new IllegalStateException("Negative Cycle Detected");
+                        }
+                    }
+
+                }
+            }
+        }
     }
 }
 
@@ -94,4 +117,13 @@ public class Main {
 5 3 1
 1
 6
+
+4
+4
+1 2 1
+2 3 -1
+3 4 -1
+4 1 -1
+1
+4
 */
