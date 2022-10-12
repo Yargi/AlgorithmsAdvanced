@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="_02_Longest_Path" />
         <module name="_03_Graphs_Bellman-Ford_Longest_Path_in_DAG_-_Exercise" />
         <module name="_01_Bellman-Ford" />
       </profile>
