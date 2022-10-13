@@ -5,11 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>_03_Graphs_Bellman-Ford_Longest_Path_in_DAG_-_Exercise</artifactId>
-    <packaging>pom</packaging>
+    <artifactId>_05_Graphs_Strongly_Connected_Components_Max_Flow_-_Exercise</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <modules>
-    </modules>
 
     <properties>
         <maven.compiler.source>18</maven.compiler.source>
