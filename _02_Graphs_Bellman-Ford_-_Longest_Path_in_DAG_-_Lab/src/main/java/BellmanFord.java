@@ -1,7 +1,7 @@
 import java.util.*;
 import java.util.stream.Collectors;
 
-public class Main {
+public class BellmanFord {
 
     public static int[][] graph;
     public static int[] distance;

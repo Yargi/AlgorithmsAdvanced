@@ -2,7 +2,7 @@ import java.util.ArrayDeque;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Main {
+public class LongestPath {
 
     public static int[][] graph;
     public static int[] distance;

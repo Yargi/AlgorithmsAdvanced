@@ -9,12 +9,18 @@
         <option value="$PROJECT_DIR$/_02_Graphs_Bellman-Ford_-_Longest_Path_in_DAG_-_Lab/pom.xml" />
         <option value="$PROJECT_DIR$/_04_Graphs_Strongly_Connected_Components_Max_Flow_-_Lab/pom.xml" />
         <option value="$PROJECT_DIR$/_05_Graphs_Strongly_Connected_Components_Max_Flow_-_Exercise/pom.xml" />
+        <option value="$PROJECT_DIR$/_06_Dynamic_Programming_Advanced_-_Lab/pom.xml" />
+        <option value="$PROJECT_DIR$/_07_Dynamic_Programming_Advanced_-_Exercise/pom.xml" />
+        <option value="$PROJECT_DIR$/_08_Exam_Preparation_1/pom.xml" />
+        <option value="$PROJECT_DIR$/_09_Exam_Preparation_2/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/_01_Graphs_Topologica_Sorting_MST/_01.Dijkstra/pom.xml" />
         <option value="$PROJECT_DIR$/_01_Graphs_Topologica_Sorting_MST/_02.Minimal_Spanning_Tree/pom.xml" />
+        <option value="$PROJECT_DIR$/_02_Graphs_Bellman-Ford_-_Longest_Path_in_DAG_-_Lab/_01_Bellman-Ford/pom.xml" />
+        <option value="$PROJECT_DIR$/_02_Graphs_Bellman-Ford_-_Longest_Path_in_DAG_-_Lab/_02_Longest_Path/pom.xml" />
         <option value="$PROJECT_DIR$/_03_Graphs_Bellman-Ford_Longest_Path_in_DAG_-_Exercise/_01_Cable_Network/pom.xml" />
       </set>
     </option>
